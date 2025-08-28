@@ -58,10 +58,10 @@ const Index = () => {
               </div>
             </div>
             <div className="flex space-x-3">
-              <Button variant="outline" onClick={() => navigate("/login")}>
+              <Button className="bg-gradient-to-r from-blue-500 to-purple-500 hover:from-blue-600 hover:to-purple-600" variant="outline" onClick={() => navigate("/login")}>
                 Login
               </Button>
-              <Button onClick={() => navigate("/dashboard")} className="bg-gradient-to-r from-blue-600 to-purple-600 hover:from-blue-700 hover:to-purple-700">
+              {/* <Button onClick={() => navigate("/dashboard")} className="bg-gradient-to-r from-blue-600 to-purple-600 hover:from-blue-700 hover:to-purple-700">
                 Dashboard
               </Button>
 
@@ -71,7 +71,7 @@ const Index = () => {
 
               <Button onClick={() => navigate("/attendance-scanner")} className="bg-gradient-to-r from-blue-600 to-purple-600 hover:from-blue-700 hover:to-purple-700">
                 Attendance
-              </Button>
+              </Button> */}
             </div>
           </div>
         </div>
